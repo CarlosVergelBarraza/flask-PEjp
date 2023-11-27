@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_jwt_extended import JWTManager, jwt_required, create_access_token, get_jwt_identity
 from flask_migrate import Migrate
 from flask import request, jsonify
-from app import app, db
+from main import app, db
 import pandas as pd
 from models.models import User, Role, UserDetails3
 from predecir import preditcModel, train_model
