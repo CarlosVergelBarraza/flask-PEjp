@@ -29,4 +29,4 @@ if __name__ == '__main__':
         db.create_all()
     asyncio.run(noseCompaeEstoyCansado())
     
-    app.run(debug=True)
+    app.run(debug=True,port=6694)
