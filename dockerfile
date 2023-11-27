@@ -26,4 +26,4 @@ COPY . /app
 EXPOSE 5000
 
 # Define el comando por defecto que se ejecutará cuando se inicie el contenedor
-CMD ["gunicorn main:app"]
+CMD ["python", "main.py"]
